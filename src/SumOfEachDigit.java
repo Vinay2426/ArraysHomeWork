@@ -14,6 +14,7 @@ public class SumOfEachDigit
             int add = n % 10;
             sum = sum + add;
             n = n / 10;
+
         }
         System.out.println("Total of Inputted Number : " +sum);
     }

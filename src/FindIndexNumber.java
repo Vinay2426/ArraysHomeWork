@@ -15,7 +15,7 @@ public class FindIndexNumber
     {
     int [] numArray = {1975, 1983, 2003, 1992, 2019, 1979, 1999, 1987, 2011, 2015, 1996, 2007};     //initializing the array
 
-    int key = 2019;                                             //input the number of wish to find index number
+    int key = 1983;                                             //input the number of wish to find index number
 
     System.out.println(key+" is located at index number :" +FindIndexNumber(numArray, key));
     }

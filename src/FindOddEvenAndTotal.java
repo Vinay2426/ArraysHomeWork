@@ -4,15 +4,11 @@ public class FindOddEvenAndTotal
 {
     public static void main (String [] args)
     {
-        int n, i, sumEven = 0, sumOdd = 0;
+        int n, i, sumEven = 0, sumOdd = 0;      //declare variables
         Scanner scanner = new Scanner(System.in);
-
         System.out.print("Enter Number of Elements in an array : ");
-
         n = scanner.nextInt();
-
         int [] a = new int [n];
-
         System.out.println("Enter " + n + " elements of an Array");
 
         for (i = 0; i < n; i++)

@@ -12,10 +12,10 @@ public class ContainsSpecificValue
         {
             System.out.println("Array contains the given element");
         }
-        /*else if (num != myArray[i])
-        {
+        /*else
+            {
             System.out.println("Array does not contain the given element");
-        }*/
+            }*/
     }
 }
 }
